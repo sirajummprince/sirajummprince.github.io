@@ -1,0 +1,24 @@
+body{
+  background-color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px 100px 0px 100px;
+}
+footer{
+  background-color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px 100px 0px 100px;
+}
+div {
+  border-style: double;
+}
+* {
+  box-sizing: border-box;
+}
+.column{
+  flex: 50%;
+  padding: 10px;
+}
+.row:after{
+  display: flex;
+}
